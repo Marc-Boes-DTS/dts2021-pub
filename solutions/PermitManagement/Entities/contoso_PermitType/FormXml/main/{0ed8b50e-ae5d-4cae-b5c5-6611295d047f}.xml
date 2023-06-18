@@ -1,0 +1,116 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<forms xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <systemform>
+    <formid>{0ed8b50e-ae5d-4cae-b5c5-6611295d047f}</formid>
+    <IntroducedVersion>1.0</IntroducedVersion>
+    <FormPresentation>1</FormPresentation>
+    <FormActivationState>1</FormActivationState>
+    <form headerdensity="HighWithControls">
+      <tabs>
+        <tab verticallayout="true" id="{ef750c33-6d75-47ea-be05-614240618939}" IsUserDefined="1">
+          <labels>
+            <label description="General" languagecode="1033" />
+          </labels>
+          <columns>
+            <column width="100%">
+              <sections>
+                <section showlabel="false" showbar="false" IsUserDefined="0" id="{d33be525-2f62-4def-927a-95b0776a4367}">
+                  <labels>
+                    <label description="General" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{18b6ee12-b061-45a9-8056-4b7357c3bd86}">
+                        <labels>
+                          <label description="Name" languagecode="1033" />
+                        </labels>
+                        <control id="contoso_name" classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" datafieldname="contoso_name" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{84ffc75e-1d72-4890-b316-fe08b9382c2f}" locklevel="0" colspan="1" rowspan="1">
+                        <labels>
+                          <label description="Require Inspections" languagecode="1033" />
+                        </labels>
+                        <control id="contoso_requireinspections" classid="{67FAC785-CD58-4F9F-ABB3-4B7DDC6ED5ED}" datafieldname="contoso_requireinspections" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{b4530848-ad32-472a-bf5e-251c32b6a887}" locklevel="0" colspan="1" rowspan="1">
+                        <labels>
+                          <label description="Require Size" languagecode="1033" />
+                        </labels>
+                        <control id="contoso_requiresize" classid="{67FAC785-CD58-4F9F-ABB3-4B7DDC6ED5ED}" datafieldname="contoso_requiresize" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{44ea1b38-818a-4e64-a653-cef0244a4741}" colspan="1" rowspan="1">
+                        <labels>
+                          <label description="Owner" languagecode="1033" />
+                        </labels>
+                        <control id="ownerid" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="ownerid" />
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+              </sections>
+            </column>
+          </columns>
+        </tab>
+      </tabs>
+      <header id="{a78d9bb1-6beb-4b44-b86f-df52fd2a4cff}" celllabelposition="Top" columns="111" labelwidth="115" celllabelalignment="Left">
+        <rows>
+          <row>
+            <cell id="{e7db0d70-7df5-40d9-9474-09b5cdd935ee}" showlabel="false">
+              <labels>
+                <label description="" languagecode="1033" />
+              </labels>
+            </cell>
+            <cell id="{c6d8df4b-6507-467b-90f4-d828dd625b5d}" showlabel="false">
+              <labels>
+                <label description="" languagecode="1033" />
+              </labels>
+            </cell>
+            <cell id="{0683c8ad-f4c6-4e2d-bf88-6465caae3d9a}" showlabel="false">
+              <labels>
+                <label description="" languagecode="1033" />
+              </labels>
+            </cell>
+          </row>
+        </rows>
+      </header>
+      <footer id="{ebd69e08-6bd1-4eac-aed6-089ea2958d39}" celllabelposition="Top" columns="111" labelwidth="115" celllabelalignment="Left">
+        <rows>
+          <row>
+            <cell id="{a4de57c4-c85f-4565-8cd8-ad15e0de2014}" showlabel="false">
+              <labels>
+                <label description="" languagecode="1033" />
+              </labels>
+            </cell>
+            <cell id="{25f24e5c-d5b9-4de8-8ea1-2e6015b5fb17}" showlabel="false">
+              <labels>
+                <label description="" languagecode="1033" />
+              </labels>
+            </cell>
+            <cell id="{b98ca4cd-5eef-401b-930b-cb9b3c393ca9}" showlabel="false">
+              <labels>
+                <label description="" languagecode="1033" />
+              </labels>
+            </cell>
+          </row>
+        </rows>
+      </footer>
+      <DisplayConditions Order="0" FallbackForm="true">
+        <Everyone />
+      </DisplayConditions>
+    </form>
+    <IsCustomizable>1</IsCustomizable>
+    <CanBeDeleted>1</CanBeDeleted>
+    <LocalizedNames>
+      <LocalizedName description="Information" languagecode="1033" />
+    </LocalizedNames>
+    <Descriptions>
+      <Description description="A form for this entity." languagecode="1033" />
+    </Descriptions>
+  </systemform>
+</forms>
